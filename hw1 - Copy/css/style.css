@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    min-height: 100px;
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-evenly; 
+    margin: 0; /* Remove default margin */
+    font-size: large;
+}
+
+nav {
+    display: inline-block; /* Change to inline-block */
+    width: 80%; /* Set width */
+    text-align: center;
+}
+
+nav img {
+    width: 10%; /* Set width for images in nav */
+    position: relative; /* Optional: Add position */
+    top: 20px; /* Optional: Move image down */
+}
+
+header {
+    background-color: rgb(193, 193, 193);
+}
+
+.current {
+    text-transform: uppercase;
+    background-color: rgb(0, 255, 60);
+}
+
+footer {
+    background-color: rgb(193, 193, 193);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 40%); /* Two-column grid */
+    gap: 20px; /* Optional: Add gap between items */
+}
+
+.grid img {
+    width: 100%; /* Images in grid should be full width */
+}
+
+
+img {
+    width: 10%; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-right: 20px;
+}
